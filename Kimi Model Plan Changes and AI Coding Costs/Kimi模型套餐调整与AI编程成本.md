@@ -17,6 +17,10 @@ Kimi 尚未宣布“所有套餐统一涨价”，但其即将调整的会员体
 
 这次值得关注的并不只是月费数字，而是模型权限、使用额度、限流规则，以及原本打包在一起的功能会不会被拆开销售。
 
+![Kimi K3 官方定价页面配图](attachments/kimi-k3-pricing-official.jpg)
+
+*图片来源：Kimi 官方 [Kimi K3 定价页面](https://www.kimi.ai/resources/kimi-k3-pricing)，官方产品视觉图，获取日期：2026-08-19。*
+
 ## 先说结论
 
 目前可以确认的是：Kimi 计划将通用会员权益与 Kimi Code 编程权益拆分为更聚焦的产品。现有订阅用户的权益暂不受影响；但新套餐的具体价格、额度与开放时间尚未完整公布。
@@ -50,6 +54,10 @@ Kimi K3 发布后，月之暗面表示用户请求量远超预期，现有算力
 > [!NOTE]
 > Kimi 的现有说明称，已订阅用户不受新体系影响；具体新套餐规则尚未完全公开。不要仅凭社区截图判断自己的续费价格或剩余额度。[查看 Kimi Code 权益说明](https://www.kimi.ai/help/kimi-code/benefits)
 
+![套餐拆分对实际成本的影响示意图](attachments/plan-structure-comparison-zh.svg)
+
+*原创示意图：由 llm-cat 根据 Kimi 已公开的会员与 Code 权益说明制作，用于解释可能的成本结构，不代表 Kimi 已确认的最终定价。*
+
 ## 为什么 AI 编程比普通聊天更难定价
 
 普通聊天通常是一问一答，资源消耗相对可预测。AI 编程 Agent 则可能在一次任务中：
@@ -60,6 +68,10 @@ Kimi K3 发布后，月之暗面表示用户请求量远超预期，现有算力
 - 执行命令、读取输出并反复调试；
 - 连续调用工具与模型；
 - 在长流程中持续推理。
+
+![Kimi Code 官方产品配图](attachments/kimi-code-official.png)
+
+*图片来源：Kimi 官方 [Kimi K2.7 Code 页面](https://www.kimi.ai/resources/kimi-k2-7-code)，官方产品视觉图，获取日期：2026-08-19。*
 
 因此，一次“帮我修个 Bug”的任务，实际消耗的 Token 和 GPU 时间，可能远高于几十轮普通聊天。
 
@@ -148,3 +160,9 @@ Kimi 现有说明表示，订阅中的用户不受影响。若你曾关闭自动
 这次变化的重点不是“Kimi 会不会马上全面涨价”，而是 AI 服务正在进入更精细的定价阶段：轻量用户、通用用户和高算力用户，未来可能分别对应不同的产品与价格。
 
 对开发者来说，最重要的是持续观察套餐规则、记录真实任务成本，并保持模型选择的灵活性。这样即使某个模型涨价、限流或暂时无法订阅，开发工作流也不会被单一供应商牵制。
+
+## 图片来源与说明
+
+- `kimi-k3-pricing-official.jpg`：来自 Kimi 官方 [Kimi K3 定价页面](https://www.kimi.ai/resources/kimi-k3-pricing) 的产品视觉图。
+- `kimi-code-official.png`：来自 Kimi 官方 [Kimi K2.7 Code 页面](https://www.kimi.ai/resources/kimi-k2-7-code) 的产品视觉图。
+- `plan-structure-comparison-zh.svg`：本文原创示意图，不是 Kimi 官方定价图。

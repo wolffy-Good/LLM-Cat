@@ -17,6 +17,10 @@ tags:
 
 Kimi's recent subscription changes are a useful reminder for developers: the sticker price of an AI plan is not the whole story. What matters is the combination of model access, usage quotas, rate limits, and which features are bundled together.
 
+![Official Kimi K3 pricing visual](attachments/kimi-k3-pricing-official.jpg)
+
+*Image source: Kimi, [Kimi K3 Pricing](https://www.kimi.ai/resources/kimi-k3-pricing) (official product visual; retrieved 2026-08-19).*
+
 After the launch of Kimi K3, Moonshot AI said demand had exceeded expectations and pushed its existing compute cluster close to capacity. The company temporarily paused new consumer subscriptions in order to prioritize existing subscribers. [Reporting on the announcement](https://finance.sina.cn/2026-07-20/detail-iniimzhe8307985.d.html?wm=3049_0015)
 
 At the same time, Kimi indicated that a new membership system is coming.
@@ -37,6 +41,10 @@ In practice, that is a form of structural price increase.
 
 Kimi's current documentation says that existing subscribers will not be affected by the transition, while the detailed pricing and quota rules for the new plans have not yet been fully disclosed. [Kimi Code benefits documentation](https://www.kimi.ai/help/kimi-code/benefits)
 
+![Illustration of bundled and separate plan structures](attachments/plan-structure-comparison.svg)
+
+*Original explanatory diagram by llm-cat, based on Kimi's published membership and Code-benefits descriptions. It illustrates a possible cost structure, not confirmed final pricing.*
+
 ## Why AI coding is harder to price than chat
 
 Traditional AI chat is relatively predictable. A user sends a prompt, receives an answer, and the session ends.
@@ -49,6 +57,10 @@ AI coding agents are different. They may:
 - Run commands and inspect outputs
 - Call tools repeatedly
 - Continue reasoning across many steps
+
+![Official Kimi Code product visual](attachments/kimi-code-official.png)
+
+*Image source: Kimi, [Kimi K2.7 Code](https://www.kimi.ai/resources/kimi-k2-7-code) (official product visual; retrieved 2026-08-19).*
 
 One seemingly simple coding task can consume far more tokens and GPU time than dozens of standard chat messages.
 
@@ -112,3 +124,9 @@ For developers, the next advantage will come from choosing models dynamically, t
 ---
 
 *Building with multiple LLM providers? [SupaNexus](https://supanexus.ai/) provides a unified entry point for working across model providers, helping teams reduce repeated integrations and keep their model choices flexible as pricing and availability change.*
+
+## Image sources and attribution
+
+- `kimi-k3-pricing-official.jpg`: Official visual from Kimi's [Kimi K3 Pricing](https://www.kimi.ai/resources/kimi-k3-pricing) page.
+- `kimi-code-official.png`: Official visual from Kimi's [Kimi K2.7 Code](https://www.kimi.ai/resources/kimi-k2-7-code) page.
+- `plan-structure-comparison.svg`: Original explanatory graphic created for this article; it is not an official Kimi pricing chart.

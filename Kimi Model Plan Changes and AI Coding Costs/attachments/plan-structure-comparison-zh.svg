@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="540" viewBox="0 0 1200 540" role="img" aria-labelledby="title desc">
+  <title id="title">套餐拆分如何影响 AI 工作流成本</title>
+  <desc id="desc">对比合并套餐与通用 AI、编程权益分开购买的套餐结构。</desc>
+  <rect width="1200" height="540" fill="#0d1321" rx="24"/>
+  <text x="70" y="72" fill="#ffffff" font-family="Arial, 'Noto Sans CJK SC', sans-serif" font-size="38" font-weight="700">套餐拆分，为什么可能提高实际成本？</text>
+  <text x="70" y="112" fill="#aab8d4" font-family="Arial, 'Noto Sans CJK SC', sans-serif" font-size="22">示意结构：Kimi 最终价格与额度仍以官方公布为准。</text>
+  <rect x="70" y="165" width="475" height="280" rx="20" fill="#18233a" stroke="#5f8fff" stroke-width="2"/>
+  <text x="105" y="220" fill="#92b3ff" font-family="Arial, 'Noto Sans CJK SC', sans-serif" font-size="24" font-weight="700">原有合并套餐</text>
+  <text x="105" y="270" fill="#ffffff" font-family="Arial, 'Noto Sans CJK SC', sans-serif" font-size="30" font-weight="700">一份订阅</text>
+  <rect x="105" y="305" width="175" height="72" rx="12" fill="#29456f"/>
+  <text x="132" y="349" fill="#ffffff" font-family="Arial, 'Noto Sans CJK SC', sans-serif" font-size="21">通用 AI</text>
+  <rect x="305" y="305" width="190" height="72" rx="12" fill="#29456f"/>
+  <text x="338" y="349" fill="#ffffff" font-family="Arial, 'Noto Sans CJK SC', sans-serif" font-size="21">Kimi Code</text>
+  <path d="M590 304h95" stroke="#f3c969" stroke-width="6" stroke-linecap="round"/>
+  <path d="M664 284l28 20-28 20" fill="none" stroke="#f3c969" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="725" y="165" width="405" height="280" rx="20" fill="#282033" stroke="#d091f7" stroke-width="2"/>
+  <text x="760" y="220" fill="#e0b8ff" font-family="Arial, 'Noto Sans CJK SC', sans-serif" font-size="24" font-weight="700">可能的新结构</text>
+  <text x="760" y="270" fill="#ffffff" font-family="Arial, 'Noto Sans CJK SC', sans-serif" font-size="30" font-weight="700">两类产品</text>
+  <rect x="760" y="305" width="145" height="72" rx="12" fill="#63447a"/>
+  <text x="780" y="349" fill="#ffffff" font-family="Arial, 'Noto Sans CJK SC', sans-serif" font-size="20">通用 AI</text>
+  <text x="924" y="350" fill="#f3c969" font-family="Arial, sans-serif" font-size="34" font-weight="700">+</text>
+  <rect x="970" y="305" width="125" height="72" rx="12" fill="#63447a"/>
+  <text x="983" y="349" fill="#ffffff" font-family="Arial, sans-serif" font-size="20">Code</text>
+  <text x="70" y="495" fill="#aab8d4" font-family="Arial, 'Noto Sans CJK SC', sans-serif" font-size="20">影响：若同时需要两类能力，最终总支出可能上升，取决于官方的新套餐设计。</text>
+</svg>
