@@ -11,6 +11,8 @@ tags:
 
 # Kimi's Upcoming Plan Changes May Raise the Real Cost of AI Coding
 
+**English** | [中文](Kimi模型套餐调整与AI编程成本.md)
+
 > Kimi is not officially announcing a blanket price increase. But its planned membership restructuring could make AI coding more expensive for some users.
 
 Kimi's recent subscription changes are a useful reminder for developers: the sticker price of an AI plan is not the whole story. What matters is the combination of model access, usage quotas, rate limits, and which features are bundled together.
