@@ -2,6 +2,7 @@
 title: "Kimi's Upcoming Plan Changes May Raise the Real Cost of AI Coding"
 description: "Kimi's planned membership restructuring may separate general AI access from Kimi Code. Here is what that could mean for coding costs, quotas, and multi-model developers."
 date: 2026-08-19
+last_updated: 2026-08-19
 tags:
   - Kimi
   - LLM APIs
@@ -12,6 +13,8 @@ tags:
 # Kimi's Upcoming Plan Changes May Raise the Real Cost of AI Coding
 
 **English** | [中文](Kimi模型套餐调整与AI编程成本.md)
+
+> Last checked: 2026-08-19. Pricing and entitlements can vary by region, checkout surface, and later plan changes; always confirm them on Kimi's official pages and checkout.
 
 > Kimi is not officially announcing a blanket price increase. But its planned membership restructuring could make AI coding more expensive for some users.
 
@@ -39,7 +42,29 @@ That does not necessarily mean every plan will become more expensive. However, u
 
 In practice, that is a form of structural price increase.
 
-Kimi's current documentation says that existing subscribers will not be affected by the transition, while the detailed pricing and quota rules for the new plans have not yet been fully disclosed. [Kimi Code benefits documentation](https://www.kimi.ai/help/kimi-code/benefits)
+Kimi previously indicated that the two sets of benefits would be split. As of the last check for this article, its official membership page lists current plans and monthly prices. Those current prices alone do not prove that every plan has increased versus a previous plan; the real impact depends on a user's workflow, quotas, and regional checkout price.
+
+## What is known, and what remains to be seen
+
+| Known | Still to watch |
+| --- | --- |
+| Kimi temporarily paused new consumer subscriptions during a compute-capacity crunch. | Whether prices or quotas will change again. |
+| Kimi previously described separating general and Code benefits. | Actual checkout pricing across regions and purchasing surfaces. |
+| The official membership page now lists plans and monthly prices. | Weekly limits, rate limits, and concurrency for heavy coding use. |
+| Agentic coding consumes more resources than simple chat. | Future renewal, upgrade, and migration rules for existing users. |
+
+## Current plan-price reference
+
+The table below records the USD monthly prices listed on Kimi's official membership page on **2026-08-19**. It is a current-price reference, **not a price-increase calculation or historical comparison**.
+
+| Plan | Price shown on the official page |
+| --- | --- |
+| Moderato | $19/month |
+| Allegretto | $39/month |
+| Allegro | $99/month |
+| Vivace | $199/month |
+
+Source: [Kimi membership overview](https://www.kimi.ai/help/membership/membership-overview). Available plans and final prices should always be confirmed on the applicable checkout page.
 
 ![Illustration of bundled and separate plan structures](attachments/plan-structure-comparison.svg)
 
@@ -130,3 +155,7 @@ For developers, the next advantage will come from choosing models dynamically, t
 - `kimi-k3-pricing-official.jpg`: Official visual from Kimi's [Kimi K3 Pricing](https://www.kimi.ai/resources/kimi-k3-pricing) page.
 - `kimi-code-official.png`: Official visual from Kimi's [Kimi K2.7 Code](https://www.kimi.ai/resources/kimi-k2-7-code) page.
 - `plan-structure-comparison.svg`: Original explanatory graphic created for this article; it is not an official Kimi pricing chart.
+
+## Update log
+
+- **2026-08-19:** Added the current official plan-price reference and a known-versus-unknown table; clarified that current pricing is not, by itself, evidence of a confirmed price increase.
