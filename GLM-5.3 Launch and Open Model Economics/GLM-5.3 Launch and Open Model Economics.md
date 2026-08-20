@@ -24,6 +24,10 @@ Zhipu AI says GLM-5.3 is available through its API and is designed for complex c
 
 Those are vendor-reported claims, not an independent benchmark result or a universal cost conclusion. Still, they point to an important change in how developers should evaluate models.
 
+![Official GLM-5.3 performance evaluation across six benchmarks](attachments/glm-5-3-official-hero.png)
+
+*Official performance-evaluation graphic from Zhipu AI's [GLM-5.3 launch post](https://z.ai/blog/glm-5.3). It compares GLM-5.3 with other models on six benchmarks; results are Zhipu AI's reported measurements.*
+
 ## The old question: Which model is the smartest?
 
 For a long time, choosing an LLM often meant choosing the model with the strongest public reputation or benchmark result. That can be a sensible shortcut, especially for a new project.
@@ -60,6 +64,10 @@ For this reason, “lowest single-task cost” is a more useful claim to investi
 
 The claim must be tested, of course. Public benchmarks and vendor measurements may use workloads that do not resemble your product. But the evaluation principle is sound.
 
+![Official effort-versus-accuracy chart for agentic coding](attachments/glm-5-3-official-benchmark.png)
+
+*Official Z.ai Code Bench graphic from Zhipu AI's [GLM-5.3 launch post](https://z.ai/blog/glm-5.3). The chart presents the vendor's reported agentic-coding accuracy and average output-token comparison.*
+
 ## What GLM-5.3 signals for open-model users
 
 The GLM-5.3 release is part of a broader shift. Open-weight and open-ecosystem models are no longer only fallback options for teams that need self-hosting.
@@ -71,6 +79,10 @@ They are increasingly credible candidates for demanding workloads such as:
 - Multi-step agents
 - Internal developer tools
 - Security review and defensive analysis
+
+![Official cybersecurity evaluation chart for GLM-5.3](attachments/glm-5-3-official-efficiency.png)
+
+*Official cybersecurity-evaluation graphic from Zhipu AI's [GLM-5.3 launch post](https://z.ai/blog/glm-5.3). It is included to illustrate the release's stated focus on defensive cybersecurity; scores are vendor-reported.*
 
 That does not mean every team should immediately migrate from closed models. Mature closed-model platforms can still offer stronger tooling, reliability, integrations, and support for specific use cases.
 
@@ -137,8 +149,9 @@ That is where a multi-model API strategy becomes valuable. A unified gateway suc
 ## Sources and notes
 
 - [AI Hot: GLM-5.3 launch summary, citing Zhipu AI](https://aihot.virxact.com/items/cmszeb2mx0b3srodpef1ub0j0), accessed 2026-08-20.
+- [Zhipu AI: GLM-5.3—Frontier Coding with Emergent Cyber Capabilities](https://z.ai/blog/glm-5.3), accessed 2026-08-20. The three images in `attachments/` are unmodified copies of charts published on this official page.
 - The performance, pricing, task-cost, API, and open-weight release statements in this article are attributed to the launch summary and should be verified against Zhipu AI's official materials before making a purchasing or deployment decision.
 
 ## Update log
 
-- **2026-08-20:** Initial publication.
+- **2026-08-20:** Initial publication; added three sourced official Zhipu AI charts.
