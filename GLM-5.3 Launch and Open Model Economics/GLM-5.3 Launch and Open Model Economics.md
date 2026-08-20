@@ -144,7 +144,7 @@ GLM-5.3 is worth watching not merely because it posts a strong reported score. I
 
 For developers, the response should not be blind loyalty to the newest model. It should be a better evaluation habit: measure total task cost, preserve the ability to switch providers, and select models according to the needs of each workflow.
 
-That is where a multi-model API strategy becomes valuable. A unified gateway such as **AIWHALE** can help teams reduce repeated integrations across providers and keep model selection flexible as the ecosystem evolves.
+That is where a multi-model API strategy becomes valuable. A unified gateway such as [SupaNexus](https://supanexus.ai/) can help teams reduce repeated integrations across providers and keep model selection flexible as the ecosystem evolves.
 
 ## Sources and notes
 
@@ -154,4 +154,4 @@ That is where a multi-model API strategy becomes valuable. A unified gateway suc
 
 ## Update log
 
-- **2026-08-20:** Initial publication; added three sourced official Zhipu AI charts.
+- **2026-08-20:** Initial publication; added three sourced official Zhipu AI charts; corrected the referenced multi-model gateway to SupaNexus.
