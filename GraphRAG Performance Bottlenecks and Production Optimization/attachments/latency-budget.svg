@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">GraphRAG three-second latency budget</title><desc id="desc">Original illustrative latency budget that allocates three seconds across question analysis, vector retrieval, graph expansion, evidence preparation, generation, and reserve.</desc>
+  <defs><linearGradient id="bg" x1="0" x2="1"><stop stop-color="#09151f"/><stop offset="1" stop-color="#173343"/></linearGradient><style>text{font-family:Arial,'Noto Sans SC',sans-serif}.h{fill:white;font-size:45px;font-weight:700}.s{fill:#b8cfda;font-size:22px}.l{fill:#dcecf3;font-size:27px}.n{fill:#fff;font-size:24px;font-weight:700}</style></defs>
+  <rect width="1600" height="900" fill="url(#bg)"/><text x="100" y="110" class="h">先给 GraphRAG 一份 3 秒延迟预算</text><text x="100" y="153" class="s">原创示意：预算需按业务目标、模型和基础设施校准</text>
+  <text x="100" y="288" class="l">问题分析</text><rect x="380" y="245" width="180" height="62" rx="10" fill="#2dd4bf"/><text x="430" y="286" class="n">300ms</text>
+  <text x="100" y="380" class="l">向量召回</text><rect x="380" y="337" width="300" height="62" rx="10" fill="#38bdf8"/><text x="485" y="378" class="n">500ms</text>
+  <text x="100" y="472" class="l">图谱扩展</text><rect x="380" y="429" width="360" height="62" rx="10" fill="#818cf8"/><text x="510" y="470" class="n">600ms</text>
+  <text x="100" y="564" class="l">证据整理</text><rect x="380" y="521" width="120" height="62" rx="10" fill="#fbbf24"/><text x="405" y="562" class="n">200ms</text>
+  <text x="100" y="656" class="l">模型生成</text><rect x="380" y="613" width="720" height="62" rx="10" fill="#f472b6"/><text x="670" y="654" class="n">1200ms</text>
+  <text x="100" y="748" class="l">波动预留</text><rect x="380" y="705" width="120" height="62" rx="10" fill="#64748b"/><text x="405" y="746" class="n">200ms</text>
+  <text x="1180" y="485" fill="#7dd3fc" font-family="Arial,'Noto Sans SC',sans-serif" font-size="70" font-weight="700">3,000ms</text><text x="1190" y="535" class="s">总目标，而非承诺值</text>
+  <text x="100" y="845" class="s">观测项：每阶段 P50/P95/P99、候选数量、字节数、缓存命中、超时与降级原因。</text>
+</svg>

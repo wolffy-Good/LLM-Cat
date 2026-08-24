@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Microsoft-style GraphRAG indexing pipeline</title><desc id="desc">Original explanatory diagram showing text chunks, entity and relationship extraction, graph and community detection, community reports, and vector embeddings.</desc>
+  <defs><linearGradient id="bg" x1="0" x2="1"><stop stop-color="#071421"/><stop offset="1" stop-color="#102c42"/></linearGradient><style>text{font-family:Arial,'Noto Sans SC',sans-serif}.h{fill:#f7fbff;font-size:46px;font-weight:700}.s{fill:#afc5d6;font-size:22px}.box{fill:#123b58;stroke:#4fd1c5;stroke-width:2}.t{fill:#fff;font-size:25px;font-weight:700}.d{fill:#c4d9e8;font-size:18px}.a{stroke:#4fd1c5;stroke-width:4;fill:none;marker-end:url(#arrow)}</style><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#4fd1c5"/></marker></defs>
+  <rect width="1600" height="900" fill="url(#bg)"/><text x="90" y="105" class="h">GraphRAG 的索引不是一次向量化</text><text x="90" y="148" class="s">原创流程图：依据 Microsoft GraphRAG 官方索引管线整理</text>
+  <rect x="90" y="315" width="230" height="150" rx="18" class="box"/><text x="135" y="375" class="t">原始文档</text><text x="135" y="410" class="d">切块 / 文本单元</text>
+  <rect x="405" y="315" width="270" height="150" rx="18" class="box"/><text x="448" y="370" class="t">实体与关系抽取</text><text x="448" y="410" class="d">LLM 或 NLP 工作流</text>
+  <rect x="760" y="315" width="240" height="150" rx="18" class="box"/><text x="802" y="370" class="t">图构建</text><text x="802" y="410" class="d">节点、边、声明</text>
+  <rect x="1085" y="315" width="260" height="150" rx="18" class="box"/><text x="1123" y="370" class="t">社区发现</text><text x="1123" y="410" class="d">层级聚类</text>
+  <path d="M320 390H405M675 390H760M1000 390H1085" class="a"/>
+  <rect x="430" y="600" width="320" height="150" rx="18" class="box"/><text x="474" y="655" class="t">社区报告 / 摘要</text><text x="474" y="695" class="d">全局问题的检索材料</text>
+  <rect x="850" y="600" width="320" height="150" rx="18" class="box"/><text x="922" y="655" class="t">向量嵌入</text><text x="910" y="695" class="d">局部检索材料</text>
+  <path d="M1215 465 C1215 535 590 525 590 600" class="a"/><path d="M205 465 C205 555 1010 520 1010 600" class="a"/>
+  <text x="90" y="830" class="s">性能含义：每一层都应独立计时、缓存、批处理与可追溯，而不是只盯着最终模型生成。</text>
+</svg>

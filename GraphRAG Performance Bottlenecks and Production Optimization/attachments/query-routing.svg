@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Query routing for RAG and GraphRAG</title><desc id="desc">Original diagram directing simple fact questions to hybrid RAG and relationship or global questions to GraphRAG with bounded retrieval.</desc>
+  <defs><style>text{font-family:Arial,'Noto Sans SC',sans-serif}.h{fill:#fff;font-size:45px;font-weight:700}.s{fill:#bad2df;font-size:21px}.b{fill:#12384b;stroke:#5eead4;stroke-width:2}.t{fill:#fff;font-size:26px;font-weight:700}.d{fill:#c8dee7;font-size:18px}.a{stroke:#5eead4;stroke-width:4;fill:none;marker-end:url(#arrow)}</style><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0L0,6L9,3z" fill="#5eead4"/></marker></defs>
+  <rect width="1600" height="900" fill="#081a25"/><text x="90" y="105" class="h">不是每个问题都该进入 GraphRAG</text><text x="90" y="148" class="s">原创路由图：按问题结构匹配检索成本与证据需求</text>
+  <rect x="90" y="350" width="260" height="150" rx="18" class="b"/><text x="160" y="410" class="t">用户问题</text><text x="130" y="448" class="d">意图、实体、时效性</text>
+  <rect x="510" y="310" width="310" height="230" rx="18" class="b"/><text x="575" y="372" class="t">问题分流</text><text x="552" y="415" class="d">是否需要跨文档关系？</text><text x="567" y="448" class="d">是否需要全局主题？</text><text x="552" y="481" class="d">是否明确要求路径/因果？</text>
+  <rect x="1030" y="215" width="350" height="160" rx="18" class="b"/><text x="1092" y="275" class="t">混合 RAG</text><text x="1080" y="315" class="d">简单事实、局部证据</text><text x="1080" y="345" class="d">优先低延迟与可引用性</text>
+  <rect x="1030" y="535" width="350" height="160" rx="18" class="b"/><text x="1082" y="595" class="t">有边界 GraphRAG</text><text x="1080" y="635" class="d">跨文档、关系、全局问题</text><text x="1080" y="665" class="d">限深、限扇出、早停、可追溯</text>
+  <path d="M350 425H510M820 395 C930 395 920 295 1030 295M820 455 C930 455 920 615 1030 615" class="a"/><text x="875" y="280" class="s">否 / 证据局部</text><text x="868" y="590" class="s">是 / 关系性强</text>
+  <text x="90" y="840" class="s">平台层建议：统一记录模型、超时、降级、Token 与证据路径，才能比较不同路由的真实成本。</text>
+</svg>
