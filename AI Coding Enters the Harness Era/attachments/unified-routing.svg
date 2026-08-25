@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+  <rect width="1200" height="675" fill="#07131d"/>
+  <text x="70" y="72" fill="#f8fafc" font-family="Arial,sans-serif" font-size="36" font-weight="700">A production agent needs a control plane, not a favorite model</text>
+  <g font-family="Arial,sans-serif">
+    <rect x="70" y="250" width="220" height="110" rx="16" fill="#1e293b" stroke="#64748b"/><text x="180" y="297" text-anchor="middle" fill="#f8fafc" font-size="24" font-weight="700">Coding Agent</text><text x="180" y="330" text-anchor="middle" fill="#94a3b8" font-size="18">task + repository</text>
+    <path d="M290 305 H420" stroke="#38bdf8" stroke-width="5" marker-end="url(#a)"/>
+    <rect x="420" y="190" width="350" height="230" rx="20" fill="#0c4a6e" stroke="#38bdf8"/><text x="595" y="240" text-anchor="middle" fill="white" font-size="26" font-weight="700">Unified model layer</text><text x="595" y="282" text-anchor="middle" fill="#bae6fd" font-size="19">routing · fallback · keys</text><text x="595" y="318" text-anchor="middle" fill="#bae6fd" font-size="19">cost · latency · observability</text><text x="595" y="370" text-anchor="middle" fill="#e0f2fe" font-size="18">Example: SupaNexus</text>
+    <path d="M770 245 H890" stroke="#a78bfa" stroke-width="4"/><path d="M770 305 H890" stroke="#34d399" stroke-width="4"/><path d="M770 365 H890" stroke="#f59e0b" stroke-width="4"/>
+    <rect x="890" y="195" width="230" height="80" rx="14" fill="#4c1d95"/><text x="1005" y="245" text-anchor="middle" fill="white" font-size="22">Strong model</text>
+    <rect x="890" y="285" width="230" height="80" rx="14" fill="#065f46"/><text x="1005" y="335" text-anchor="middle" fill="white" font-size="22">Fast model</text>
+    <rect x="890" y="375" width="230" height="80" rx="14" fill="#92400e"/><text x="1005" y="425" text-anchor="middle" fill="white" font-size="22">Low-cost model</text>
+    <text x="600" y="590" text-anchor="middle" fill="#94a3b8" font-size="18">Original reference architecture; model choice should follow measured task outcomes.</text>
+  </g>
+  <defs><marker id="a" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#38bdf8"/></marker></defs>
+</svg>

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+  <rect width="1200" height="675" fill="#0b1020"/>
+  <text x="70" y="72" fill="#f8fafc" font-family="Arial,sans-serif" font-size="36" font-weight="700">Four repositories, four ecosystem primitives</text>
+  <g font-family="Arial,sans-serif">
+    <rect x="70" y="130" width="500" height="180" rx="18" fill="#172554" stroke="#3b82f6"/><text x="100" y="175" fill="#93c5fd" font-size="25" font-weight="700">openai/codex</text><text x="100" y="215" fill="#e2e8f0" font-size="21">Terminal coding agent</text><text x="100" y="250" fill="#94a3b8" font-size="18">Execution loop + tools + approvals</text>
+    <rect x="630" y="130" width="500" height="180" rx="18" fill="#052e2b" stroke="#10b981"/><text x="660" y="175" fill="#6ee7b7" font-size="25" font-weight="700">deepseek-ai/deepseek-harness</text><text x="660" y="215" fill="#e2e8f0" font-size="21">Everything is a plugin</text><text x="660" y="250" fill="#94a3b8" font-size="18">MIT · developer preview</text>
+    <rect x="70" y="355" width="500" height="180" rx="18" fill="#2e1065" stroke="#8b5cf6"/><text x="100" y="400" fill="#c4b5fd" font-size="25" font-weight="700">andrej-karpathy-skills</text><text x="100" y="440" fill="#e2e8f0" font-size="21">Rules packaged for agents</text><text x="100" y="475" fill="#94a3b8" font-size="18">Instructions become reusable behavior</text>
+    <rect x="630" y="355" width="500" height="180" rx="18" fill="#3b1d06" stroke="#f59e0b"/><text x="660" y="400" fill="#fcd34d" font-size="25" font-weight="700">claude-plugins-community</text><text x="660" y="440" fill="#e2e8f0" font-size="21">Community plugin marketplace</text><text x="660" y="475" fill="#94a3b8" font-size="18">Distribution becomes part of the moat</text>
+    <text x="600" y="615" text-anchor="middle" fill="#94a3b8" font-size="18">Original taxonomy based on repository READMEs checked 2026-08-25</text>
+  </g>
+</svg>
