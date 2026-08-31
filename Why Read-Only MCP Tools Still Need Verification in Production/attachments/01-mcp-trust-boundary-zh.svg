@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+  <rect width="1600" height="900" fill="#f6f1e8"/>
+  <rect x="72" y="72" width="1456" height="756" rx="28" fill="#fffaf2" stroke="#1f2a30" stroke-width="4"/>
+  <text x="110" y="146" fill="#1f2a30" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="40" font-weight="700">MCP 信任边界：声明不等于已验证的行为</text>
+  <text x="110" y="192" fill="#5b5f58" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="22">依据 2026 年 8 月 31 日围绕只读标记、自定义审批链路和证据优先校验的讨论整理。</text>
+
+  <rect x="118" y="260" width="370" height="320" rx="22" fill="#d9ead3" stroke="#1f2a30" stroke-width="3"/>
+  <text x="152" y="316" fill="#1f2a30" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="34" font-weight="700">工具服务端</text>
+  <text x="152" y="364" fill="#1f2a30" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="25">会声明：</text>
+  <text x="152" y="406" fill="#1f2a30" font-family="Courier New, monospace" font-size="24">readOnlyHint: true</text>
+  <text x="152" y="452" fill="#1f2a30" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="25">但仍可能：</text>
+  <text x="152" y="494" fill="#1f2a30" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="24">• 越权写入</text>
+  <text x="152" y="530" fill="#1f2a30" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="24">• 触发间接副作用</text>
+  <text x="152" y="566" fill="#1f2a30" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="24">• 绕过预期审批</text>
+
+  <rect x="612" y="260" width="370" height="320" rx="22" fill="#fce5cd" stroke="#1f2a30" stroke-width="3"/>
+  <text x="646" y="316" fill="#1f2a30" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="34" font-weight="700">Agent 执行层</text>
+  <text x="646" y="364" fill="#1f2a30" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="25">必须控制：</text>
+  <text x="646" y="406" fill="#1f2a30" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="24">• 调用路径上的审批门</text>
+  <text x="646" y="442" fill="#1f2a30" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="24">• 调用者身份和范围</text>
+  <text x="646" y="478" fill="#1f2a30" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="24">• 有边界的行为探测</text>
+  <text x="646" y="514" fill="#1f2a30" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="24">• 可复查的证据留存</text>
+
+  <rect x="1106" y="260" width="370" height="320" rx="22" fill="#d0e0f6" stroke="#1f2a30" stroke-width="3"/>
+  <text x="1140" y="316" fill="#1f2a30" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="34" font-weight="700">生产环境动作</text>
+  <text x="1140" y="364" fill="#1f2a30" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="25">只有在以下条件满足时才放行：</text>
+  <text x="1140" y="406" fill="#1f2a30" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="24">• 观察到的行为符合策略</text>
+  <text x="1140" y="442" fill="#1f2a30" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="24">• 旁路路径已被检查</text>
+  <text x="1140" y="478" fill="#1f2a30" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="24">• 不确定性没有被掩盖</text>
+  <text x="1140" y="514" fill="#1f2a30" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="24">• 证据可供事后复盘</text>
+
+  <path d="M488 420h92" stroke="#1f2a30" stroke-width="6" fill="none"/>
+  <polygon points="580,420 554,405 554,435" fill="#1f2a30"/>
+  <path d="M982 420h92" stroke="#1f2a30" stroke-width="6" fill="none"/>
+  <polygon points="1074,420 1048,405 1048,435" fill="#1f2a30"/>
+
+  <text x="110" y="694" fill="#1f2a30" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="28" font-weight="700">核心结论</text>
+  <text x="110" y="738" fill="#1f2a30" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="30">自称只读只是元数据，不是安全证明。</text>
+  <text x="110" y="780" fill="#5b5f58" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="24">真正值得信任的是受控执行路径与可观察证据，而不是工具对自己的描述。</text>
+</svg>

@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+  <rect width="1600" height="900" fill="#f6f1e8"/>
+  <rect x="72" y="72" width="1456" height="756" rx="28" fill="#fffaf2" stroke="#1f2a30" stroke-width="4"/>
+  <text x="110" y="146" fill="#1f2a30" font-family="Helvetica, Arial, sans-serif" font-size="40" font-weight="700">MCP trust boundary: declaration versus observed behavior</text>
+  <text x="110" y="192" fill="#5b5f58" font-family="Helvetica, Arial, sans-serif" font-size="22">Based on the August 31, 2026 discussion around self-declared read-only tools, harness approvals, and evidence-first checks.</text>
+
+  <rect x="118" y="260" width="370" height="320" rx="22" fill="#d9ead3" stroke="#1f2a30" stroke-width="3"/>
+  <text x="152" y="316" fill="#1f2a30" font-family="Helvetica, Arial, sans-serif" font-size="34" font-weight="700">Tool server</text>
+  <text x="152" y="364" fill="#1f2a30" font-family="Helvetica, Arial, sans-serif" font-size="25">Declares:</text>
+  <text x="152" y="406" fill="#1f2a30" font-family="Courier New, monospace" font-size="24">readOnlyHint: true</text>
+  <text x="152" y="452" fill="#1f2a30" font-family="Helvetica, Arial, sans-serif" font-size="25">But may still:</text>
+  <text x="152" y="494" fill="#1f2a30" font-family="Helvetica, Arial, sans-serif" font-size="24">• write outside scope</text>
+  <text x="152" y="530" fill="#1f2a30" font-family="Helvetica, Arial, sans-serif" font-size="24">• trigger indirect side effects</text>
+  <text x="152" y="566" fill="#1f2a30" font-family="Helvetica, Arial, sans-serif" font-size="24">• bypass expected review</text>
+
+  <rect x="612" y="260" width="370" height="320" rx="22" fill="#fce5cd" stroke="#1f2a30" stroke-width="3"/>
+  <text x="646" y="316" fill="#1f2a30" font-family="Helvetica, Arial, sans-serif" font-size="34" font-weight="700">Agent harness</text>
+  <text x="646" y="364" fill="#1f2a30" font-family="Helvetica, Arial, sans-serif" font-size="25">Must enforce:</text>
+  <text x="646" y="406" fill="#1f2a30" font-family="Helvetica, Arial, sans-serif" font-size="24">• path-level approval gates</text>
+  <text x="646" y="442" fill="#1f2a30" font-family="Helvetica, Arial, sans-serif" font-size="24">• caller identity and scope</text>
+  <text x="646" y="478" fill="#1f2a30" font-family="Helvetica, Arial, sans-serif" font-size="24">• bounded probes</text>
+  <text x="646" y="514" fill="#1f2a30" font-family="Helvetica, Arial, sans-serif" font-size="24">• durable logs and evidence</text>
+
+  <rect x="1106" y="260" width="370" height="320" rx="22" fill="#d0e0f6" stroke="#1f2a30" stroke-width="3"/>
+  <text x="1140" y="316" fill="#1f2a30" font-family="Helvetica, Arial, sans-serif" font-size="34" font-weight="700">Production action</text>
+  <text x="1140" y="364" fill="#1f2a30" font-family="Helvetica, Arial, sans-serif" font-size="25">Release only when:</text>
+  <text x="1140" y="406" fill="#1f2a30" font-family="Helvetica, Arial, sans-serif" font-size="24">• observed behavior matches policy</text>
+  <text x="1140" y="442" fill="#1f2a30" font-family="Helvetica, Arial, sans-serif" font-size="24">• alternate paths are checked</text>
+  <text x="1140" y="478" fill="#1f2a30" font-family="Helvetica, Arial, sans-serif" font-size="24">• uncertainty stays visible</text>
+  <text x="1140" y="514" fill="#1f2a30" font-family="Helvetica, Arial, sans-serif" font-size="24">• evidence survives review</text>
+
+  <path d="M488 420h92" stroke="#1f2a30" stroke-width="6" fill="none"/>
+  <polygon points="580,420 554,405 554,435" fill="#1f2a30"/>
+  <path d="M982 420h92" stroke="#1f2a30" stroke-width="6" fill="none"/>
+  <polygon points="1074,420 1048,405 1048,435" fill="#1f2a30"/>
+
+  <text x="110" y="694" fill="#1f2a30" font-family="Helvetica, Arial, sans-serif" font-size="28" font-weight="700">Key lesson</text>
+  <text x="110" y="738" fill="#1f2a30" font-family="Helvetica, Arial, sans-serif" font-size="30">A self-declared read-only label is metadata, not proof.</text>
+  <text x="110" y="780" fill="#5b5f58" font-family="Helvetica, Arial, sans-serif" font-size="24">Trust should come from controlled execution paths and observed evidence, not from the tool describing itself.</text>
+</svg>

@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+  <rect width="1600" height="900" fill="#eef3ea"/>
+  <text x="90" y="110" fill="#1f2a30" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="42" font-weight="700">同一个动作有多条路径，审批必须覆盖每条可达路线</text>
+  <text x="90" y="154" fill="#556067" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="23">基于正文里回滚按钮和旁路调用风险的论点整理。</text>
+
+  <rect x="90" y="220" width="320" height="110" rx="20" fill="#fffaf2" stroke="#1f2a30" stroke-width="3"/>
+  <text x="130" y="285" fill="#1f2a30" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="34" font-weight="700">高风险动作</text>
+
+  <rect x="540" y="150" width="380" height="130" rx="20" fill="#d9ead3" stroke="#1f2a30" stroke-width="3"/>
+  <text x="576" y="214" fill="#1f2a30" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="30" font-weight="700">路径 A：带审批的 Harness</text>
+  <text x="576" y="252" fill="#1f2a30" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="23">人工复核、身份校验、策略留痕</text>
+
+  <rect x="540" y="365" width="380" height="130" rx="20" fill="#fce5cd" stroke="#1f2a30" stroke-width="3"/>
+  <text x="576" y="429" fill="#1f2a30" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="30" font-weight="700">路径 B：直接 MCP 端点</text>
+  <text x="576" y="467" fill="#1f2a30" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="23">可能绕过原本预期的审批层</text>
+
+  <rect x="540" y="580" width="380" height="130" rx="20" fill="#f4cccc" stroke="#1f2a30" stroke-width="3"/>
+  <text x="576" y="644" fill="#1f2a30" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="30" font-weight="700">路径 C：代理或重试任务</text>
+  <text x="576" y="682" fill="#1f2a30" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="23">运维捷径也可能重新放大风险</text>
+
+  <rect x="1080" y="220" width="410" height="110" rx="20" fill="#d0e0f6" stroke="#1f2a30" stroke-width="3"/>
+  <text x="1120" y="285" fill="#1f2a30" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="33" font-weight="700">真正的安全属性</text>
+
+  <path d="M410 275h92" stroke="#1f2a30" stroke-width="6" fill="none"/>
+  <polygon points="502,275 476,260 476,290" fill="#1f2a30"/>
+  <path d="M920 215h120" stroke="#1f2a30" stroke-width="6" fill="none"/>
+  <polygon points="1040,215 1014,200 1014,230" fill="#1f2a30"/>
+  <path d="M920 430h120" stroke="#b45f06" stroke-width="6" fill="none" stroke-dasharray="14 12"/>
+  <polygon points="1040,430 1014,415 1014,445" fill="#b45f06"/>
+  <path d="M920 645h120" stroke="#a61c00" stroke-width="6" fill="none" stroke-dasharray="14 12"/>
+  <polygon points="1040,645 1014,630 1014,660" fill="#a61c00"/>
+
+  <text x="1118" y="396" fill="#1f2a30" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="26">只有当每一条通向动作的路径</text>
+  <text x="1118" y="432" fill="#1f2a30" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="26">都在执行前被拦截时，审批才算真实存在。</text>
+  <text x="1118" y="492" fill="#b45f06" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="24">虚线箭头表示：如果只保护一条路径，旁路风险仍然存在。</text>
+</svg>
