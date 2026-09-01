@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f4efe6"/>
+      <stop offset="100%" stop-color="#dce8f2"/>
+    </linearGradient>
+    <linearGradient id="card" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#f7f6f1"/>
+    </linearGradient>
+    <style>
+      .title { font: 700 44px Georgia, serif; fill: #122033; }
+      .subtitle { font: 500 22px "Helvetica Neue", Arial, sans-serif; fill: #455468; }
+      .box { fill: url(#card); stroke: #24364a; stroke-width: 3; rx: 28; }
+      .box-title { font: 700 28px "Helvetica Neue", Arial, sans-serif; fill: #15273a; }
+      .box-copy { font: 500 20px "Helvetica Neue", Arial, sans-serif; fill: #314255; }
+      .pill { fill: #122033; }
+      .pill-text { font: 700 18px "Helvetica Neue", Arial, sans-serif; fill: #ffffff; letter-spacing: 1px; }
+      .arrow { stroke: #c8602d; stroke-width: 8; fill: none; stroke-linecap: round; stroke-linejoin: round; }
+      .footer { font: 500 18px "Helvetica Neue", Arial, sans-serif; fill: #4a5768; }
+    </style>
+    <marker id="arrowhead" markerWidth="14" markerHeight="14" refX="10" refY="7" orient="auto">
+      <polygon points="0,0 14,7 0,14" fill="#c8602d"/>
+    </marker>
+  </defs>
+
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <text x="110" y="105" class="title">From Pretty Diagram to Verifiable Artifact</text>
+  <text x="110" y="145" class="subtitle">Based on Archify's public README flow: generate, validate, preview, deliver.</text>
+
+  <rect x="100" y="220" width="280" height="240" class="box"/>
+  <rect x="160" y="190" width="160" height="38" class="pill" rx="19"/>
+  <text x="240" y="216" text-anchor="middle" class="pill-text">INPUT</text>
+  <text x="140" y="285" class="box-title">Repository or system brief</text>
+  <text x="140" y="330" class="box-copy">A map can begin from plain-language</text>
+  <text x="140" y="360" class="box-copy">description or codebase context.</text>
+  <text x="140" y="410" class="box-copy">Useful for speed, but trust is still</text>
+  <text x="140" y="440" class="box-copy">thin until structure is checked.</text>
+
+  <rect x="470" y="220" width="280" height="240" class="box"/>
+  <rect x="535" y="190" width="150" height="38" class="pill" rx="19"/>
+  <text x="610" y="216" text-anchor="middle" class="pill-text">MODEL</text>
+  <text x="510" y="285" class="box-title">Typed JSON IR</text>
+  <text x="510" y="330" class="box-copy">Public docs describe an intermediate</text>
+  <text x="510" y="360" class="box-copy">representation, not a frozen bitmap.</text>
+  <text x="510" y="410" class="box-copy">That makes later validation, diffing,</text>
+  <text x="510" y="440" class="box-copy">and targeted edits possible.</text>
+
+  <rect x="840" y="220" width="280" height="240" class="box"/>
+  <rect x="885" y="190" width="190" height="38" class="pill" rx="19"/>
+  <text x="980" y="216" text-anchor="middle" class="pill-text">CHECKS</text>
+  <text x="880" y="285" class="box-title">Validation gates</text>
+  <text x="880" y="330" class="box-copy">Schema, layout, route, label, and</text>
+  <text x="880" y="360" class="box-copy">artifact checks run before delivery.</text>
+  <text x="880" y="410" class="box-copy">Failed candidates should stay visible</text>
+  <text x="880" y="440" class="box-copy">as failures, not become silent output.</text>
+
+  <rect x="1210" y="220" width="280" height="240" class="box"/>
+  <rect x="1268" y="190" width="164" height="38" class="pill" rx="19"/>
+  <text x="1350" y="216" text-anchor="middle" class="pill-text">OUTPUT</text>
+  <text x="1250" y="285" class="box-title">Portable reviewed artifact</text>
+  <text x="1250" y="330" class="box-copy">Self-contained HTML and exportable</text>
+  <text x="1250" y="360" class="box-copy">formats are easier to review and share.</text>
+  <text x="1250" y="410" class="box-copy">Presentation quality matters, but only</text>
+  <text x="1250" y="440" class="box-copy">after the evidence path is clear.</text>
+
+  <path d="M380 340 L470 340" class="arrow" marker-end="url(#arrowhead)"/>
+  <path d="M750 340 L840 340" class="arrow" marker-end="url(#arrowhead)"/>
+  <path d="M1120 340 L1210 340" class="arrow" marker-end="url(#arrowhead)"/>
+
+  <rect x="120" y="560" width="1360" height="180" rx="30" fill="#13263b"/>
+  <text x="170" y="620" font-family="Georgia, serif" font-size="36" font-weight="700" fill="#f9f4ea">Editorial takeaway</text>
+  <text x="170" y="670" class="subtitle" fill="#e3ebf3">A generated architecture map becomes more trustworthy when readers can inspect the representation,</text>
+  <text x="170" y="705" class="subtitle" fill="#e3ebf3">the checks that ran, and the exact artifact that survived those checks.</text>
+
+  <text x="110" y="820" class="footer">Source basis: public Archify README_EN claims about typed JSON IR, validation, preview, and delivery.</text>
+</svg>

@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">变更评审与明确非主张</title>
+  <desc id="desc">展示哪些变化事实可以被工具表达，哪些判断仍然需要人工负责。</desc>
+  <rect width="1600" height="900" fill="#f2ede6"/>
+  <rect x="72" y="68" width="1456" height="764" rx="32" fill="#fffaf4" stroke="#d8ccb8" stroke-width="4"/>
+  <text x="110" y="142" fill="#1f2a30" font-family="Helvetica, Arial, sans-serif" font-size="42" font-weight="700">更可信的变更评审，前提是把“变化事实”和“人工判断”分开。</text>
+
+  <rect x="114" y="238" width="520" height="470" rx="28" fill="#dde8f5" stroke="#8aa2c3" stroke-width="3"/>
+  <text x="154" y="300" fill="#294869" font-family="Helvetica, Arial, sans-serif" font-size="34" font-weight="700">工具可以明确说的部分</text>
+  <text x="154" y="362" fill="#1f2a30" font-family="Helvetica, Arial, sans-serif" font-size="28">- 新增了哪条路径</text>
+  <text x="154" y="404" fill="#1f2a30" font-family="Helvetica, Arial, sans-serif" font-size="28">- 哪个节点被移动</text>
+  <text x="154" y="446" fill="#1f2a30" font-family="Helvetica, Arial, sans-serif" font-size="28">- 哪条边被删除</text>
+  <text x="154" y="488" fill="#1f2a30" font-family="Helvetica, Arial, sans-serif" font-size="28">- 证据绑定到哪个 revision</text>
+  <text x="154" y="530" fill="#1f2a30" font-family="Helvetica, Arial, sans-serif" font-size="28">- 是否存在 validation receipt</text>
+  <text x="154" y="602" fill="#294869" font-family="Helvetica, Arial, sans-serif" font-size="26" font-weight="700">这些是变化事实。</text>
+
+  <rect x="966" y="238" width="450" height="470" rx="28" fill="#f7dfcd" stroke="#cc9c7e" stroke-width="3"/>
+  <text x="1006" y="300" fill="#8a4e2d" font-family="Helvetica, Arial, sans-serif" font-size="34" font-weight="700">仍然必须人工判断的部分</text>
+  <text x="1006" y="362" fill="#1f2a30" font-family="Helvetica, Arial, sans-serif" font-size="28">- merge 是否安全</text>
+  <text x="1006" y="404" fill="#1f2a30" font-family="Helvetica, Arial, sans-serif" font-size="28">- 线上风险有多大</text>
+  <text x="1006" y="446" fill="#1f2a30" font-family="Helvetica, Arial, sans-serif" font-size="28">- 对事故影响如何</text>
+  <text x="1006" y="488" fill="#1f2a30" font-family="Helvetica, Arial, sans-serif" font-size="28">- 当前抽象是否足够</text>
+  <text x="1006" y="602" fill="#8a4e2d" font-family="Helvetica, Arial, sans-serif" font-size="26" font-weight="700">这些仍是判断题。</text>
+
+  <rect x="660" y="314" width="240" height="148" rx="24" fill="#eef5ea" stroke="#99b08b" stroke-width="3"/>
+  <text x="736" y="376" fill="#1f2a30" font-family="Helvetica, Arial, sans-serif" font-size="30">Delta 视图</text>
+  <text x="708" y="418" fill="#1f2a30" font-family="Helvetica, Arial, sans-serif" font-size="24">Before / After</text>
+
+  <path d="M634 418 L660 398" stroke="#607f62" stroke-width="6" marker-end="url(#arrowReviewZh)"/>
+  <path d="M900 398 L966 418" stroke="#607f62" stroke-width="6" marker-end="url(#arrowReviewZh)"/>
+
+  <defs>
+    <marker id="arrowReviewZh" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto">
+      <path d="M0,0 L12,6 L0,12 z" fill="#607f62"/>
+    </marker>
+  </defs>
+</svg>

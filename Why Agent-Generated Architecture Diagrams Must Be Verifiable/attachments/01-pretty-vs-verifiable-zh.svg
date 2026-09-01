@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">好看输出与可验证产物</title>
+  <desc id="desc">对比只有效果图的工作流，与带有结构化源表示、校验和证据边界的工作流。</desc>
+  <rect width="1600" height="900" fill="#f4efe6"/>
+  <rect x="64" y="64" width="1472" height="772" rx="32" fill="#fffaf1" stroke="#dfd2bc" stroke-width="4"/>
+  <text x="110" y="140" fill="#1f2a30" font-family="Helvetica, Arial, sans-serif" font-size="42" font-weight="700">会出图已经不稀缺。能被检查，才是真正的产品差异。</text>
+  <text x="110" y="184" fill="#6a675e" font-family="Helvetica, Arial, sans-serif" font-size="24">基于 2026-09-01 公开 Archify 仓库说明整理。</text>
+
+  <rect x="110" y="242" width="610" height="500" rx="28" fill="#f7dfcd" stroke="#d3a889" stroke-width="3"/>
+  <text x="150" y="304" fill="#7f3f1f" font-family="Helvetica, Arial, sans-serif" font-size="34" font-weight="700">只有效果图</text>
+  <rect x="150" y="342" width="240" height="90" rx="18" fill="#fff5ef" stroke="#d3a889" stroke-width="3"/>
+  <text x="180" y="397" fill="#1f2a30" font-family="Helvetica, Arial, sans-serif" font-size="28">提示词或仓库</text>
+  <rect x="436" y="342" width="240" height="90" rx="18" fill="#fff5ef" stroke="#d3a889" stroke-width="3"/>
+  <text x="498" y="397" fill="#1f2a30" font-family="Helvetica, Arial, sans-serif" font-size="28">图片输出</text>
+  <path d="M391 387 L436 387" stroke="#9b5a34" stroke-width="6" marker-end="url(#arrowWarmZh)"/>
+  <text x="150" y="484" fill="#7f3f1f" font-family="Helvetica, Arial, sans-serif" font-size="26" font-weight="700">评审者实际只能看到：</text>
+  <text x="178" y="532" fill="#1f2a30" font-family="Helvetica, Arial, sans-serif" font-size="26">- 版式和标签</text>
+  <text x="178" y="572" fill="#1f2a30" font-family="Helvetica, Arial, sans-serif" font-size="26">- 看不到可检查的 typed source</text>
+  <text x="178" y="612" fill="#1f2a30" font-family="Helvetica, Arial, sans-serif" font-size="26">- 没有路径级证据界面</text>
+  <text x="178" y="652" fill="#1f2a30" font-family="Helvetica, Arial, sans-serif" font-size="26">- 不确定性被展示层掩盖</text>
+
+  <rect x="876" y="242" width="610" height="500" rx="28" fill="#dbe8d8" stroke="#8aab84" stroke-width="3"/>
+  <text x="916" y="304" fill="#29412d" font-family="Helvetica, Arial, sans-serif" font-size="34" font-weight="700">可验证产物流程</text>
+  <rect x="916" y="342" width="210" height="90" rx="18" fill="#f6fbf4" stroke="#8aab84" stroke-width="3"/>
+  <text x="976" y="397" fill="#1f2a30" font-family="Helvetica, Arial, sans-serif" font-size="28">仓库或描述</text>
+  <rect x="1170" y="342" width="210" height="90" rx="18" fill="#f6fbf4" stroke="#8aab84" stroke-width="3"/>
+  <text x="1216" y="397" fill="#1f2a30" font-family="Helvetica, Arial, sans-serif" font-size="28">typed JSON IR</text>
+  <rect x="1042" y="482" width="210" height="90" rx="18" fill="#f6fbf4" stroke="#8aab84" stroke-width="3"/>
+  <text x="1108" y="537" fill="#1f2a30" font-family="Helvetica, Arial, sans-serif" font-size="28">校验</text>
+  <rect x="1296" y="482" width="150" height="90" rx="18" fill="#f6fbf4" stroke="#8aab84" stroke-width="3"/>
+  <text x="1336" y="537" fill="#1f2a30" font-family="Helvetica, Arial, sans-serif" font-size="28">产物</text>
+  <path d="M1126 387 L1170 387" stroke="#496b47" stroke-width="6" marker-end="url(#arrowCoolZh)"/>
+  <path d="M1275 432 L1162 482" stroke="#496b47" stroke-width="6" marker-end="url(#arrowCoolZh)"/>
+  <path d="M1252 527 L1296 527" stroke="#496b47" stroke-width="6" marker-end="url(#arrowCoolZh)"/>
+  <text x="916" y="628" fill="#29412d" font-family="Helvetica, Arial, sans-serif" font-size="26" font-weight="700">评审者可以继续追问：</text>
+  <text x="944" y="670" fill="#1f2a30" font-family="Helvetica, Arial, sans-serif" font-size="26">- 图背后的结构到底是什么</text>
+  <text x="944" y="710" fill="#1f2a30" font-family="Helvetica, Arial, sans-serif" font-size="26">- 交付前到底过了哪些校验</text>
+  <text x="944" y="750" fill="#1f2a30" font-family="Helvetica, Arial, sans-serif" font-size="26">- 工具暴露了什么，又拒绝推断什么</text>
+
+  <defs>
+    <marker id="arrowWarmZh" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto">
+      <path d="M0,0 L12,6 L0,12 z" fill="#9b5a34"/>
+    </marker>
+    <marker id="arrowCoolZh" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto">
+      <path d="M0,0 L12,6 L0,12 z" fill="#496b47"/>
+    </marker>
+  </defs>
+</svg>

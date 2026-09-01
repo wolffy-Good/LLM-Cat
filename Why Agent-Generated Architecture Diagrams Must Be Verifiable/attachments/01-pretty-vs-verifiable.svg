@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Pretty output versus verifiable artifact</title>
+  <desc id="desc">A comparison between a diagram that is only a polished image and a diagram backed by typed source, validation, and evidence boundaries.</desc>
+  <rect width="1600" height="900" fill="#f4efe6"/>
+  <rect x="64" y="64" width="1472" height="772" rx="32" fill="#fffaf1" stroke="#dfd2bc" stroke-width="4"/>
+  <text x="110" y="140" fill="#1f2a30" font-family="Helvetica, Arial, sans-serif" font-size="42" font-weight="700">Pretty output is easy. Verifiable output is the real differentiator.</text>
+  <text x="110" y="184" fill="#6a675e" font-family="Helvetica, Arial, sans-serif" font-size="24">Based on the September 1, 2026 public Archify repository description.</text>
+
+  <rect x="110" y="242" width="610" height="500" rx="28" fill="#f7dfcd" stroke="#d3a889" stroke-width="3"/>
+  <text x="150" y="304" fill="#7f3f1f" font-family="Helvetica, Arial, sans-serif" font-size="34" font-weight="700">Polished diagram only</text>
+  <rect x="150" y="342" width="240" height="90" rx="18" fill="#fff5ef" stroke="#d3a889" stroke-width="3"/>
+  <text x="177" y="397" fill="#1f2a30" font-family="Helvetica, Arial, sans-serif" font-size="28">Prompt or repo</text>
+  <rect x="436" y="342" width="240" height="90" rx="18" fill="#fff5ef" stroke="#d3a889" stroke-width="3"/>
+  <text x="498" y="397" fill="#1f2a30" font-family="Helvetica, Arial, sans-serif" font-size="28">Image output</text>
+  <path d="M391 387 L436 387" stroke="#9b5a34" stroke-width="6" marker-end="url(#arrowWarm)"/>
+  <text x="150" y="484" fill="#7f3f1f" font-family="Helvetica, Arial, sans-serif" font-size="26" font-weight="700">Reviewer sees:</text>
+  <text x="178" y="532" fill="#1f2a30" font-family="Helvetica, Arial, sans-serif" font-size="26">- layout and labels</text>
+  <text x="178" y="572" fill="#1f2a30" font-family="Helvetica, Arial, sans-serif" font-size="26">- no typed source to inspect</text>
+  <text x="178" y="612" fill="#1f2a30" font-family="Helvetica, Arial, sans-serif" font-size="26">- no route-level evidence surface</text>
+  <text x="178" y="652" fill="#1f2a30" font-family="Helvetica, Arial, sans-serif" font-size="26">- uncertainty hidden inside presentation</text>
+
+  <rect x="876" y="242" width="610" height="500" rx="28" fill="#dbe8d8" stroke="#8aab84" stroke-width="3"/>
+  <text x="916" y="304" fill="#29412d" font-family="Helvetica, Arial, sans-serif" font-size="34" font-weight="700">Verifiable artifact flow</text>
+  <rect x="916" y="342" width="210" height="90" rx="18" fill="#f6fbf4" stroke="#8aab84" stroke-width="3"/>
+  <text x="972" y="397" fill="#1f2a30" font-family="Helvetica, Arial, sans-serif" font-size="28">Repo or spec</text>
+  <rect x="1170" y="342" width="210" height="90" rx="18" fill="#f6fbf4" stroke="#8aab84" stroke-width="3"/>
+  <text x="1216" y="397" fill="#1f2a30" font-family="Helvetica, Arial, sans-serif" font-size="28">Typed JSON IR</text>
+  <rect x="1042" y="482" width="210" height="90" rx="18" fill="#f6fbf4" stroke="#8aab84" stroke-width="3"/>
+  <text x="1094" y="537" fill="#1f2a30" font-family="Helvetica, Arial, sans-serif" font-size="28">Validation</text>
+  <rect x="1296" y="482" width="150" height="90" rx="18" fill="#f6fbf4" stroke="#8aab84" stroke-width="3"/>
+  <text x="1322" y="537" fill="#1f2a30" font-family="Helvetica, Arial, sans-serif" font-size="28">Artifact</text>
+  <path d="M1126 387 L1170 387" stroke="#496b47" stroke-width="6" marker-end="url(#arrowCool)"/>
+  <path d="M1275 432 L1162 482" stroke="#496b47" stroke-width="6" marker-end="url(#arrowCool)"/>
+  <path d="M1252 527 L1296 527" stroke="#496b47" stroke-width="6" marker-end="url(#arrowCool)"/>
+  <text x="916" y="628" fill="#29412d" font-family="Helvetica, Arial, sans-serif" font-size="26" font-weight="700">Reviewer can ask:</text>
+  <text x="944" y="670" fill="#1f2a30" font-family="Helvetica, Arial, sans-serif" font-size="26">- what structure exists behind the picture</text>
+  <text x="944" y="710" fill="#1f2a30" font-family="Helvetica, Arial, sans-serif" font-size="26">- what checks passed before delivery</text>
+  <text x="944" y="750" fill="#1f2a30" font-family="Helvetica, Arial, sans-serif" font-size="26">- what the tool exposes and what it does not infer</text>
+
+  <defs>
+    <marker id="arrowWarm" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto">
+      <path d="M0,0 L12,6 L0,12 z" fill="#9b5a34"/>
+    </marker>
+    <marker id="arrowCool" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto">
+      <path d="M0,0 L12,6 L0,12 z" fill="#496b47"/>
+    </marker>
+  </defs>
+</svg>

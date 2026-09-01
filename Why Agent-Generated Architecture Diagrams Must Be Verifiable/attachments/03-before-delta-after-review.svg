@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+  <defs>
+    <linearGradient id="bg3" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f5efe9"/>
+      <stop offset="100%" stop-color="#f3f6fb"/>
+    </linearGradient>
+    <style>
+      .title { font: 700 42px Georgia, serif; fill: #2f1e1a; }
+      .subtitle { font: 500 22px "Helvetica Neue", Arial, sans-serif; fill: #61534d; }
+      .panel { fill: #ffffff; stroke: #53372f; stroke-width: 3; rx: 28; }
+      .panel-title { font: 700 26px "Helvetica Neue", Arial, sans-serif; fill: #3a261f; }
+      .copy { font: 500 20px "Helvetica Neue", Arial, sans-serif; fill: #5d4d46; }
+      .chip { font: 700 17px "Helvetica Neue", Arial, sans-serif; fill: #ffffff; }
+      .tag-green { fill: #3a7a52; }
+      .tag-red { fill: #a54a36; }
+      .tag-gold { fill: #b4822f; }
+      .tag-blue { fill: #3c628c; }
+      .connector { stroke: #c57147; stroke-width: 7; fill: none; stroke-linecap: round; }
+    </style>
+    <marker id="arrow3" markerWidth="14" markerHeight="14" refX="10" refY="7" orient="auto">
+      <polygon points="0,0 14,7 0,14" fill="#c57147"/>
+    </marker>
+  </defs>
+
+  <rect width="1600" height="900" fill="url(#bg3)"/>
+  <text x="110" y="105" class="title">A Reviewable Map Must Also Be Diffable</text>
+  <text x="110" y="145" class="subtitle">Based on Archify's public Before / Delta / After comparison model.</text>
+
+  <rect x="110" y="220" width="400" height="410" class="panel"/>
+  <text x="150" y="285" class="panel-title">Before</text>
+  <rect x="150" y="330" width="120" height="32" rx="16" class="tag-blue"/>
+  <text x="210" y="352" text-anchor="middle" class="chip">baseline</text>
+  <text x="150" y="415" class="copy">A validated snapshot freezes the</text>
+  <text x="150" y="447" class="copy">starting architecture for review.</text>
+  <text x="150" y="505" class="copy">Without a stable baseline, later</text>
+  <text x="150" y="537" class="copy">"change maps" become presentation</text>
+  <text x="150" y="569" class="copy">instead of evidence.</text>
+
+  <rect x="600" y="220" width="400" height="410" class="panel"/>
+  <text x="640" y="285" class="panel-title">Delta</text>
+  <rect x="640" y="330" width="120" height="32" rx="16" class="tag-gold"/>
+  <text x="700" y="352" text-anchor="middle" class="chip">exact change</text>
+  <text x="640" y="415" class="copy">Public docs frame delta review as</text>
+  <text x="640" y="447" class="copy">added, removed, changed, moved,</text>
+  <text x="640" y="479" class="copy">and rerouted authored facts.</text>
+  <rect x="640" y="525" width="95" height="28" rx="14" class="tag-green"/>
+  <text x="688" y="544" text-anchor="middle" class="chip">added</text>
+  <rect x="750" y="525" width="110" height="28" rx="14" class="tag-red"/>
+  <text x="805" y="544" text-anchor="middle" class="chip">removed</text>
+  <rect x="875" y="525" width="118" height="28" rx="14" class="tag-blue"/>
+  <text x="934" y="544" text-anchor="middle" class="chip">moved</text>
+  <text x="640" y="595" class="copy">That makes code review discussion</text>
+  <text x="640" y="627" class="copy">more concrete than a static redraw.</text>
+
+  <rect x="1090" y="220" width="400" height="410" class="panel"/>
+  <text x="1130" y="285" class="panel-title">After</text>
+  <rect x="1130" y="330" width="120" height="32" rx="16" class="tag-green"/>
+  <text x="1190" y="352" text-anchor="middle" class="chip">current view</text>
+  <text x="1130" y="415" class="copy">The resulting map is still a diagram,</text>
+  <text x="1130" y="447" class="copy">but now readers can ask a better</text>
+  <text x="1130" y="479" class="copy">question: what changed, exactly?</text>
+  <text x="1130" y="537" class="copy">That is the difference between</text>
+  <text x="1130" y="569" class="copy">ornament and reviewable context.</text>
+
+  <path d="M510 425 L600 425" class="connector" marker-end="url(#arrow3)"/>
+  <path d="M1000 425 L1090 425" class="connector" marker-end="url(#arrow3)"/>
+
+  <text x="110" y="790" class="subtitle">Editorial use: explain why a production map should carry a stable baseline and an explicit delta, not only a nicer layout.</text>
+</svg>

@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+  <defs>
+    <linearGradient id="bg2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#eef5ef"/>
+      <stop offset="100%" stop-color="#edf0f7"/>
+    </linearGradient>
+    <style>
+      .title { font: 700 42px Georgia, serif; fill: #163124; }
+      .subtitle { font: 500 22px "Helvetica Neue", Arial, sans-serif; fill: #4c5c54; }
+      .card { fill: #ffffff; stroke: #204436; stroke-width: 3; rx: 26; }
+      .label { font: 700 24px "Helvetica Neue", Arial, sans-serif; fill: #18352b; }
+      .copy { font: 500 20px "Helvetica Neue", Arial, sans-serif; fill: #34483f; }
+      .accent { fill: #204436; }
+      .accent-text { font: 700 18px "Helvetica Neue", Arial, sans-serif; fill: #ffffff; letter-spacing: 1px; }
+      .line { stroke: #2d7a59; stroke-width: 7; fill: none; stroke-linecap: round; }
+      .note { font: 500 18px "Helvetica Neue", Arial, sans-serif; fill: #56685e; }
+    </style>
+    <marker id="arrow2" markerWidth="14" markerHeight="14" refX="10" refY="7" orient="auto">
+      <polygon points="0,0 14,7 0,14" fill="#2d7a59"/>
+    </marker>
+  </defs>
+
+  <rect width="1600" height="900" fill="url(#bg2)"/>
+  <text x="110" y="105" class="title">Revision-Pinned Evidence Beats Decorative Confidence</text>
+  <text x="110" y="145" class="subtitle">Based on Archify's public repository-evidence description and changelog entries.</text>
+
+  <rect x="110" y="240" width="290" height="210" class="card"/>
+  <rect x="175" y="208" width="160" height="38" rx="19" class="accent"/>
+  <text x="255" y="234" text-anchor="middle" class="accent-text">SOURCE</text>
+  <text x="145" y="305" class="label">Public repository</text>
+  <text x="145" y="350" class="copy">Commit SHA fixes the version.</text>
+  <text x="145" y="382" class="copy">Repo-relative files anchor the claim.</text>
+  <text x="145" y="414" class="copy">Line ranges narrow the evidence.</text>
+
+  <rect x="495" y="240" width="290" height="210" class="card"/>
+  <rect x="555" y="208" width="170" height="38" rx="19" class="accent"/>
+  <text x="640" y="234" text-anchor="middle" class="accent-text">BEACON</text>
+  <text x="530" y="305" class="label">Evidence markers</text>
+  <text x="530" y="350" class="copy">Nodes can expose `SRC n` only</text>
+  <text x="530" y="382" class="copy">when repository evidence was requested.</text>
+  <text x="530" y="414" class="copy">Ordinary diagrams remain source-free.</text>
+
+  <rect x="880" y="240" width="290" height="210" class="card"/>
+  <rect x="940" y="208" width="170" height="38" rx="19" class="accent"/>
+  <text x="1025" y="234" text-anchor="middle" class="accent-text">REVIEW</text>
+  <text x="915" y="305" class="label">Inspectable context</text>
+  <text x="915" y="350" class="copy">Readers can inspect exact files,</text>
+  <text x="915" y="382" class="copy">line ranges, and repository revision</text>
+  <text x="915" y="414" class="copy">instead of trusting a pretty shape.</text>
+
+  <rect x="1265" y="240" width="225" height="210" class="card"/>
+  <rect x="1314" y="208" width="127" height="38" rx="19" class="accent"/>
+  <text x="1378" y="234" text-anchor="middle" class="accent-text">LIMIT</text>
+  <text x="1295" y="305" class="label">Still not runtime truth</text>
+  <text x="1295" y="350" class="copy">Pinned source supports</text>
+  <text x="1295" y="382" class="copy">reviewable intent, not live</text>
+  <text x="1295" y="414" class="copy">infrastructure proof.</text>
+
+  <path d="M400 345 L495 345" class="line" marker-end="url(#arrow2)"/>
+  <path d="M785 345 L880 345" class="line" marker-end="url(#arrow2)"/>
+  <path d="M1170 345 L1265 345" class="line" marker-end="url(#arrow2)"/>
+
+  <rect x="120" y="545" width="1360" height="190" rx="30" fill="#f8fbf8" stroke="#264d3d" stroke-width="3"/>
+  <text x="165" y="610" font-family="Georgia, serif" font-size="34" font-weight="700" fill="#18352b">Why this matters</text>
+  <text x="165" y="660" class="subtitle">An AI-generated map is easier to challenge when the diagram can point back to one public revision,</text>
+  <text x="165" y="695" class="subtitle">specific repo files, and exact lines. That does not prove runtime behavior, but it sharply improves reviewability.</text>
+
+  <text x="110" y="815" class="note">Source basis: public README_EN and changelog descriptions of revision-verified repository evidence.</text>
+</svg>

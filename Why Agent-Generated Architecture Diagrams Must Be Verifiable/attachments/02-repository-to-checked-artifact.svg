@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Repository evidence to checked deliverable</title>
+  <desc id="desc">A flowchart showing how repository evidence becomes a checked diagram artifact through typed source and validation.</desc>
+  <rect width="1600" height="900" fill="#eef2e8"/>
+  <rect x="70" y="72" width="1460" height="756" rx="30" fill="#fbfdf8" stroke="#c9d3bd" stroke-width="4"/>
+  <text x="110" y="144" fill="#1f2a30" font-family="Helvetica, Arial, sans-serif" font-size="42" font-weight="700">The stronger diagram pipeline starts before rendering.</text>
+  <text x="110" y="186" fill="#66705f" font-family="Helvetica, Arial, sans-serif" font-size="24">Archify's README frames generation as a checked pipeline, not just a one-shot image export.</text>
+
+  <rect x="120" y="286" width="210" height="96" rx="18" fill="#d9e8f7" stroke="#7ea0bf" stroke-width="3"/>
+  <text x="178" y="344" fill="#1f2a30" font-family="Helvetica, Arial, sans-serif" font-size="30">Repository</text>
+  <rect x="392" y="286" width="210" height="96" rx="18" fill="#e9ecd2" stroke="#9cad71" stroke-width="3"/>
+  <text x="426" y="344" fill="#1f2a30" font-family="Helvetica, Arial, sans-serif" font-size="30">Agent analysis</text>
+  <rect x="664" y="286" width="210" height="96" rx="18" fill="#f7ecd8" stroke="#c4a36c" stroke-width="3"/>
+  <text x="716" y="344" fill="#1f2a30" font-family="Helvetica, Arial, sans-serif" font-size="30">Typed IR</text>
+  <rect x="936" y="286" width="210" height="96" rx="18" fill="#dfead8" stroke="#86a27a" stroke-width="3"/>
+  <text x="974" y="344" fill="#1f2a30" font-family="Helvetica, Arial, sans-serif" font-size="30">Validation gates</text>
+  <rect x="1208" y="286" width="210" height="96" rx="18" fill="#f3ddd9" stroke="#ba857d" stroke-width="3"/>
+  <text x="1254" y="344" fill="#1f2a30" font-family="Helvetica, Arial, sans-serif" font-size="30">Deliverable</text>
+
+  <path d="M330 334 L392 334" stroke="#5c7d98" stroke-width="6" marker-end="url(#arrowPipe)"/>
+  <path d="M602 334 L664 334" stroke="#879651" stroke-width="6" marker-end="url(#arrowPipe)"/>
+  <path d="M874 334 L936 334" stroke="#a88245" stroke-width="6" marker-end="url(#arrowPipe)"/>
+  <path d="M1146 334 L1208 334" stroke="#5b7f52" stroke-width="6" marker-end="url(#arrowPipe)"/>
+
+  <text x="126" y="486" fill="#1f2a30" font-family="Helvetica, Arial, sans-serif" font-size="28" font-weight="700">Evidence surfaces described publicly:</text>
+  <text x="154" y="538" fill="#1f2a30" font-family="Helvetica, Arial, sans-serif" font-size="26">- exact route tracing</text>
+  <text x="154" y="578" fill="#1f2a30" font-family="Helvetica, Arial, sans-serif" font-size="26">- revision-verified source when requested</text>
+  <text x="154" y="618" fill="#1f2a30" font-family="Helvetica, Arial, sans-serif" font-size="26">- Before / Delta / After comparisons</text>
+  <text x="154" y="658" fill="#1f2a30" font-family="Helvetica, Arial, sans-serif" font-size="26">- validation receipts and repair codes</text>
+
+  <rect x="960" y="478" width="444" height="224" rx="24" fill="#fff6eb" stroke="#d0b07d" stroke-width="3"/>
+  <text x="994" y="532" fill="#7d5930" font-family="Helvetica, Arial, sans-serif" font-size="30" font-weight="700">Important limit</text>
+  <text x="994" y="584" fill="#1f2a30" font-family="Helvetica, Arial, sans-serif" font-size="26">Public materials also state explicit non-claims:</text>
+  <text x="1022" y="628" fill="#1f2a30" font-family="Helvetica, Arial, sans-serif" font-size="24">- no implicit live-infrastructure inspection</text>
+  <text x="1022" y="664" fill="#1f2a30" font-family="Helvetica, Arial, sans-serif" font-size="24">- no automatic impact or merge-safety inference</text>
+
+  <defs>
+    <marker id="arrowPipe" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto">
+      <path d="M0,0 L12,6 L0,12 z" fill="#516470"/>
+    </marker>
+  </defs>
+</svg>
