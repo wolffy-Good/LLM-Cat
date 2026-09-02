@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Agent control-plane checklist</title>
+  <desc id="desc">A checklist of routing, telemetry, prompt, billing, and retention controls needed for production fallback.</desc>
+  <defs>
+    <style>
+      .bg { fill: #eef5f0; }
+      .panel { fill: #fffefb; stroke: #19384e; stroke-width: 3; rx: 30; }
+      .check { fill: #d7edd8; stroke: #19384e; stroke-width: 3; rx: 24; }
+      .accent { fill: #d8e9ff; stroke: #19384e; stroke-width: 3; rx: 24; }
+      .title { font: 700 42px Helvetica, Arial, sans-serif; fill: #19384e; }
+      .label { font: 700 24px Helvetica, Arial, sans-serif; fill: #19384e; }
+      .body { font: 400 22px Helvetica, Arial, sans-serif; fill: #19384e; }
+      .small { font: 400 18px Helvetica, Arial, sans-serif; fill: #19384e; }
+    </style>
+  </defs>
+
+  <rect class="bg" width="1600" height="900"/>
+  <text class="title" x="90" y="90">Before calling fallback production-ready</text>
+  <text class="body" x="90" y="130">Use the sourced launch facts as inputs, then implement explicit controls around the route.</text>
+
+  <rect class="panel" x="90" y="190" width="1420" height="620"/>
+
+  <rect class="check" x="130" y="240" width="620" height="100"/>
+  <text class="label" x="170" y="300">1. Log requested model and answering model</text>
+  <rect class="check" x="850" y="240" width="620" height="100"/>
+  <text class="label" x="890" y="300">2. Record fallback reason or stop reason</text>
+
+  <rect class="check" x="130" y="380" width="620" height="100"/>
+  <text class="label" x="170" y="440">3. Test prompts on the fallback target</text>
+  <rect class="check" x="850" y="380" width="620" height="100"/>
+  <text class="label" x="890" y="440">4. Define degrade-versus-stop policy</text>
+
+  <rect class="check" x="130" y="520" width="620" height="100"/>
+  <text class="label" x="170" y="580">5. Surface billing path to operators</text>
+  <rect class="check" x="850" y="520" width="620" height="100"/>
+  <text class="label" x="890" y="580">6. Surface retention mode per task</text>
+
+  <rect class="accent" x="300" y="670" width="1000" height="90"/>
+  <text class="label" x="360" y="725">Control-plane summary: routing, telemetry, prompts, billing, retention, review</text>
+
+  <text class="small" x="90" y="850">Editorial synthesis from Anthropic's official launch, fallback, and EFS materials checked 2026-09-02.</text>
+</svg>

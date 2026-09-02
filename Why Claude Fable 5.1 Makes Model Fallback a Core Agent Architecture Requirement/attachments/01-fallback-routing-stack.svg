@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Fallback routing in apps and APIs</title>
+  <desc id="desc">A comparison of Claude app fallback and API fallback paths for Claude Fable 5.1.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#16324f"/>
+    </marker>
+    <style>
+      .bg { fill: #f5efe2; }
+      .panel { fill: #fffdf8; stroke: #16324f; stroke-width: 3; rx: 28; }
+      .box { fill: #ffffff; stroke: #16324f; stroke-width: 3; rx: 22; }
+      .soft { fill: #d7ecff; }
+      .warn { fill: #ffe1b8; }
+      .accent { fill: #cde8ce; }
+      .title { font: 700 42px Helvetica, Arial, sans-serif; fill: #16324f; }
+      .label { font: 700 24px Helvetica, Arial, sans-serif; fill: #16324f; }
+      .body { font: 400 22px Helvetica, Arial, sans-serif; fill: #16324f; }
+      .small { font: 400 18px Helvetica, Arial, sans-serif; fill: #16324f; }
+      .line { stroke: #16324f; stroke-width: 4; fill: none; marker-end: url(#arrow); }
+    </style>
+  </defs>
+
+  <rect class="bg" width="1600" height="900"/>
+  <text class="title" x="90" y="90">Claude Fable 5.1 fallback creates two control paths</text>
+  <text class="body" x="90" y="130">Anthropic says app switching is default, while API fallback must be configured explicitly.</text>
+
+  <rect class="panel" x="70" y="180" width="680" height="620"/>
+  <text class="label" x="110" y="230">Claude apps</text>
+  <rect class="box soft" x="110" y="270" width="240" height="90"/>
+  <text class="label" x="140" y="325">User request</text>
+  <rect class="box" x="410" y="270" width="260" height="90"/>
+  <text class="label" x="455" y="325">Fable 5.1</text>
+  <path class="line" d="M350 315 L410 315"/>
+
+  <rect class="box warn" x="250" y="430" width="280" height="100"/>
+  <text class="label" x="295" y="475">Safety classifier hit</text>
+  <text class="small" x="300" y="505">cyber or biology request class</text>
+  <path class="line" d="M540 360 L540 410 L390 410 L390 430"/>
+
+  <rect class="box accent" x="210" y="600" width="360" height="120"/>
+  <text class="label" x="270" y="648">Fallback to Opus</text>
+  <text class="small" x="240" y="682">conversation keeps running on fallback model</text>
+  <text class="small" x="280" y="708">until user switches back manually</text>
+  <path class="line" d="M390 530 L390 600"/>
+
+  <rect class="panel" x="850" y="180" width="680" height="620"/>
+  <text class="label" x="890" y="230">Claude API</text>
+  <rect class="box soft" x="890" y="270" width="240" height="90"/>
+  <text class="label" x="930" y="325">API request</text>
+  <rect class="box" x="1190" y="270" width="260" height="90"/>
+  <text class="label" x="1235" y="325">Fable 5.1</text>
+  <path class="line" d="M1130 315 L1190 315"/>
+
+  <rect class="box warn" x="1000" y="430" width="340" height="100"/>
+  <text class="label" x="1060" y="475">Fallback decision point</text>
+  <text class="small" x="1030" y="505">route depends on explicit API configuration</text>
+  <path class="line" d="M1320 360 L1320 410 L1170 410 L1170 430"/>
+
+  <rect class="box accent" x="900" y="600" width="250" height="120"/>
+  <text class="label" x="940" y="648">Configured</text>
+  <text class="small" x="940" y="682">request can reroute</text>
+  <text class="small" x="955" y="708">to fallback model</text>
+  <path class="line" d="M1115 530 L1115 600"/>
+
+  <rect class="box" x="1230" y="600" width="250" height="120"/>
+  <text class="label" x="1285" y="648">Not configured</text>
+  <text class="small" x="1270" y="682">API returns 200</text>
+  <text class="small" x="1260" y="708">with stop reason</text>
+  <path class="line" d="M1225 530 L1225 600"/>
+
+  <text class="small" x="90" y="850">Source basis: Anthropic Fable page and Help Center fallback article, checked 2026-09-02.</text>
+</svg>

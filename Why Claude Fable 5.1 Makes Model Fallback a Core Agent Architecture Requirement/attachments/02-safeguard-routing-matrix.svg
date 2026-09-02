@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Public safeguard routing boundary</title>
+  <desc id="desc">A matrix showing which request classes stay on Claude Fable 5.1 and which may route to Opus models.</desc>
+  <defs>
+    <style>
+      .bg { fill: #f4f7fb; }
+      .navy { fill: #17324d; }
+      .blue { fill: #cfe6ff; }
+      .green { fill: #d6f0d7; }
+      .sand { fill: #ffe7c7; }
+      .rose { fill: #ffd8d8; }
+      .ink { fill: #17324d; }
+      .border { stroke: #17324d; stroke-width: 3; }
+      .title { font: 700 42px Helvetica, Arial, sans-serif; fill: #17324d; }
+      .label { font: 700 24px Helvetica, Arial, sans-serif; fill: #17324d; }
+      .body { font: 400 22px Helvetica, Arial, sans-serif; fill: #17324d; }
+      .small { font: 400 18px Helvetica, Arial, sans-serif; fill: #17324d; }
+    </style>
+  </defs>
+
+  <rect class="bg" width="1600" height="900"/>
+  <text class="title" x="90" y="90">Anthropic's public safeguard boundary is a routing policy</text>
+  <text class="body" x="90" y="130">The launch materials tie capability access to request class rather than to one stable serving path.</text>
+
+  <rect x="100" y="210" width="1400" height="560" rx="30" fill="#fffdfb" class="border"/>
+  <rect x="100" y="210" width="300" height="120" rx="30" fill="#17324d"/>
+  <text x="155" y="285" font-family="Helvetica, Arial, sans-serif" font-size="28" font-weight="700" fill="#fffdfb">Request class</text>
+  <rect x="400" y="210" width="520" height="120" rx="30" class="blue border"/>
+  <text class="label" x="560" y="285">Public Fable 5.1 path</text>
+  <rect x="920" y="210" width="580" height="120" rx="30" class="sand border"/>
+  <text class="label" x="1100" y="285">Fallback or block behavior</text>
+
+  <rect x="120" y="360" width="260" height="110" rx="24" class="green border"/>
+  <text class="label" x="170" y="422">Coding</text>
+  <text class="small" x="155" y="450">general software work</text>
+  <rect x="420" y="360" width="480" height="110" rx="24" class="green border"/>
+  <text class="label" x="505" y="422">Can stay on Fable 5.1</text>
+  <text class="small" x="455" y="450">Anthropic markets this as a primary use case</text>
+  <rect x="940" y="360" width="540" height="110" rx="24" class="blue border"/>
+  <text class="label" x="1020" y="422">Fallback not implied</text>
+  <text class="small" x="1020" y="450">unless request triggers a safeguard boundary</text>
+
+  <rect x="120" y="500" width="260" height="110" rx="24" class="sand border"/>
+  <text class="label" x="145" y="562">Cybersecurity</text>
+  <text class="small" x="145" y="590">especially offensive technique</text>
+  <rect x="420" y="500" width="480" height="110" rx="24" class="sand border"/>
+  <text class="label" x="500" y="562">Bounded capability only</text>
+  <text class="small" x="455" y="590">vulnerability identification, not exploit development</text>
+  <rect x="940" y="500" width="540" height="110" rx="24" class="rose border"/>
+  <text class="label" x="995" y="562">May route to Opus 4.8</text>
+  <text class="small" x="995" y="590">or block when the safeguard policy fires</text>
+
+  <rect x="120" y="640" width="260" height="110" rx="24" class="sand border"/>
+  <text class="label" x="180" y="702">Biology</text>
+  <text class="small" x="145" y="730">dual-use or professional research</text>
+  <rect x="420" y="640" width="480" height="110" rx="24" class="sand border"/>
+  <text class="label" x="530" y="702">General access is bounded</text>
+  <text class="small" x="470" y="730">Mythos-level access remains trusted-program only</text>
+  <rect x="940" y="640" width="540" height="110" rx="24" class="rose border"/>
+  <text class="label" x="1010" y="702">May route to Opus 5</text>
+  <text class="small" x="980" y="730">or remain outside the generally available surface</text>
+
+  <text class="small" x="90" y="840">Source basis: Anthropic Fable page, launch announcement, and fallback Help Center article, checked 2026-09-02.</text>
+</svg>

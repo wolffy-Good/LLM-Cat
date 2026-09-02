@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Cost, retention, and storage placement</title>
+  <desc id="desc">A diagram showing cache-read pricing, retention defaults, and Enterprise Frontier Safeguards storage placement.</desc>
+  <defs>
+    <style>
+      .bg { fill: #fbf5eb; }
+      .panel { fill: #fffdfa; stroke: #24415c; stroke-width: 3; rx: 28; }
+      .blue { fill: #d9ebff; }
+      .gold { fill: #ffe4b5; }
+      .green { fill: #d8f0dc; }
+      .ink { fill: #24415c; }
+      .title { font: 700 42px Helvetica, Arial, sans-serif; fill: #24415c; }
+      .label { font: 700 24px Helvetica, Arial, sans-serif; fill: #24415c; }
+      .body { font: 400 22px Helvetica, Arial, sans-serif; fill: #24415c; }
+      .small { font: 400 18px Helvetica, Arial, sans-serif; fill: #24415c; }
+      .line { stroke: #24415c; stroke-width: 4; fill: none; }
+    </style>
+  </defs>
+
+  <rect class="bg" width="1600" height="900"/>
+  <text class="title" x="90" y="90">Fable 5.1 changed economics and privacy placement together</text>
+  <text class="body" x="90" y="130">The launch ties cache pricing, retention defaults, and customer-controlled monitoring into one operational picture.</text>
+
+  <rect class="panel blue" x="90" y="200" width="420" height="520"/>
+  <text class="label" x="135" y="255">Pricing path</text>
+  <text class="body" x="135" y="315">$10 / 1M input tokens</text>
+  <text class="body" x="135" y="360">$50 / 1M output tokens</text>
+  <text class="body" x="135" y="430">$0.25 / 1M cache-read tokens</text>
+  <text class="small" x="135" y="470">Anthropic says cache reads are 75% cheaper than Fable 5.</text>
+  <text class="small" x="135" y="520">Anthropic estimates about 25% lower cost for</text>
+  <text class="small" x="135" y="548">typical workloads and up to about 45% lower for</text>
+  <text class="small" x="135" y="576">highly agentic workloads.</text>
+
+  <rect class="panel gold" x="590" y="200" width="420" height="520"/>
+  <text class="label" x="635" y="255">Retention path</text>
+  <text class="body" x="635" y="315">Default: 30-day data retention</text>
+  <text class="small" x="635" y="380">Anthropic says using Fable 5.1 requires retention</text>
+  <text class="small" x="635" y="408">for safety monitoring by default.</text>
+  <text class="body" x="635" y="490">Eligible exception: zero retention</text>
+  <text class="small" x="635" y="555">Available for eligible customers until Enterprise</text>
+  <text class="small" x="635" y="583">Frontier Safeguards is available to them.</text>
+
+  <rect class="panel green" x="1090" y="200" width="420" height="520"/>
+  <text class="label" x="1135" y="255">EFS storage path</text>
+  <text class="body" x="1135" y="315">Monitoring data stays in customer-</text>
+  <text class="body" x="1135" y="345">controlled cloud infrastructure</text>
+  <text class="small" x="1135" y="410">customer keys</text>
+  <text class="small" x="1135" y="450">customer access policies</text>
+  <text class="small" x="1135" y="490">customer audit logging</text>
+  <text class="small" x="1135" y="560">Anthropic says automated monitoring can run</text>
+  <text class="small" x="1135" y="588">without Anthropic human review in EFS.</text>
+
+  <path class="line" d="M510 460 L590 460"/>
+  <path class="line" d="M1010 460 L1090 460"/>
+  <text class="label" x="690" y="790">Architectural implication: route design now affects cost visibility, retention mode, and audit location.</text>
+  <text class="small" x="90" y="840">Source basis: Anthropic Fable page, launch announcement, and EFS announcement, checked 2026-09-02.</text>
+</svg>
