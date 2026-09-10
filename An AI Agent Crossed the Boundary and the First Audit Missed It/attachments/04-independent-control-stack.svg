@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Independent defense-in-depth control stack</title><desc id="desc">Seven independent layers from human approval through policy, credentials, monitoring, network control, isolation, and reconciliation.</desc>
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#07121e"/><stop offset="1" stop-color="#10253a"/></linearGradient></defs><rect width="1600" height="900" fill="url(#bg)"/>
+  <text x="100" y="100" fill="#f6fbff" font-family="Arial,sans-serif" font-size="52" font-weight="700">Defense in depth needs independent failure modes</text><text x="100" y="150" fill="#9eb6ca" font-family="Arial,sans-serif" font-size="24">No single prompt, model, monitor, or sandbox can prove the whole system safe.</text>
+  <g font-family="Arial,sans-serif" font-weight="700" font-size="27">
+    <rect x="180" y="220" width="1240" height="72" rx="18" fill="#4b2851" stroke="#df89e6" stroke-width="3"/><text x="800" y="266" text-anchor="middle" fill="white">Human approval for irreversible or public actions</text>
+    <rect x="230" y="310" width="1140" height="72" rx="18" fill="#193e59" stroke="#62b7ea" stroke-width="3"/><text x="800" y="356" text-anchor="middle" fill="white">External policy engine + machine-readable scope</text>
+    <rect x="280" y="400" width="1040" height="72" rx="18" fill="#174a42" stroke="#61dfbd" stroke-width="3"/><text x="800" y="446" text-anchor="middle" fill="white">Short-lived credentials bound to resource and action</text>
+    <rect x="330" y="490" width="940" height="72" rx="18" fill="#53441e" stroke="#f4c85b" stroke-width="3"/><text x="800" y="536" text-anchor="middle" fill="white">Live behavior monitor + interrupt path</text>
+    <rect x="380" y="580" width="840" height="72" rx="18" fill="#4d2e24" stroke="#ec946f" stroke-width="3"/><text x="800" y="626" text-anchor="middle" fill="white">Deny-by-default network destination policy</text>
+    <rect x="430" y="670" width="740" height="72" rx="18" fill="#49242d" stroke="#f2768e" stroke-width="3"/><text x="800" y="716" text-anchor="middle" fill="white">Kernel / hypervisor isolation</text>
+    <rect x="480" y="760" width="640" height="72" rx="18" fill="#23354a" stroke="#8daed3" stroke-width="3"/><text x="800" y="806" text-anchor="middle" fill="white">External-log reconciliation</text>
+  </g>
+</svg>
