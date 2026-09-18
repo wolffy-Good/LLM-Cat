@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="t d">
+<title id="t">An auditable agent oversight loop</title><desc id="d">A proposal to record agent identity and action, test the monitor, review misses, and publish scoped metrics.</desc>
+<rect width="1200" height="675" fill="#0c1425"/><g font-family="Arial,sans-serif"><text x="65" y="82" fill="white" font-size="40" font-weight="700">Make oversight claims auditable</text>
+<g fill="#203c5e"><rect x="60" y="165" width="250" height="235" rx="20"/><rect x="335" y="165" width="250" height="235" rx="20"/><rect x="610" y="165" width="250" height="235" rx="20"/><rect x="885" y="165" width="250" height="235" rx="20"/></g>
+<g fill="#8ce2d5" font-size="24"><text x="87" y="220">1 / TRACE</text><text x="362" y="220">2 / TEST</text><text x="637" y="220">3 / REVIEW</text><text x="912" y="220">4 / REPORT</text></g>
+<g fill="white" font-size="21"><text x="87" y="280">Identity + action</text><text x="87" y="312">+ source evidence</text><text x="362" y="280">Known bad cases</text><text x="362" y="312">+ new failures</text><text x="637" y="280">Misses + latency</text><text x="637" y="312">+ human decisions</text><text x="912" y="280">Scope + method</text><text x="912" y="312">+ limitations</text></g>
+<path d="M315 280 H332 M590 280 H607 M865 280 H882" stroke="#8ce2d5" stroke-width="5"/>
+<text x="65" y="485" fill="#dce8f8" font-size="25">A reproducible method lets outsiders challenge the number.</text><text x="65" y="590" fill="#8194af" font-size="16">Author's engineering proposal · Informed by limitations in Anthropic's September 2026 measurements</text></g></svg>
